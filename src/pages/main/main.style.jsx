@@ -9,8 +9,8 @@ export const Container = styled.div`
 `;
 
 export const Error = styled.div`
-color: red;
-margin-bottom:10px;
+  color: red;
+  margin-bottom: 10px;
 `;
 
 export const CurrentDay = styled.div`
@@ -90,7 +90,7 @@ export const NameCity = styled.div`
   }
   @media (max-height: 800px) {
     height: 30%;
-    margin-bottom:20px; 
+    margin-bottom: 20px;
   }
 `;
 
@@ -146,7 +146,7 @@ export const Humidity = styled.div`
 `;
 
 export const Wind = styled(Humidity)`
-  border-left: 3px solid #C0C0C0;
+  border-left: 3px solid #c0c0c0;
 `;
 
 export const GetCity = styled.div`
@@ -164,8 +164,6 @@ export const GetCity = styled.div`
   @media (max-width: 1170px) {
     width: 100vw;
   }
-
-  
 `;
 
 export const DaysContainer = styled.div`
